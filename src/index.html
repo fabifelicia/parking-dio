@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Dados do Veiculo</legend>
+            <label for="nome">Nome do Veiculo</label>
+            <br>
+            <input type="text" id='nome' placeholder="Digite o nome do veiculo: " autocomplete="off">
+            <br>
+            <br>
+            <label for="placa">Placa do Veiculo</label>
+            <br>
+            <input type="text" id='placa' placeholder="Digite a placa do veiculo: " autocomplete="off">
+            <br>
+            <br>
+            <button id='cadastrar'>Cadastrar</button>
+        </fieldset>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Placa</th>
+                <th>Entrada</th>
+                <th>Açoes</th>
+            </tr>
+        </thead>
+        <tbody id='patio'></tbody>
+    </table>    
+    <script src="./script.js"></script>
+</body>
+</html>
